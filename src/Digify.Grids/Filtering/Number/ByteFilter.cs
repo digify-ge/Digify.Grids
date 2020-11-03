@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ITN.TS.DataGrid.Filtering.Number
+namespace Digify.DataGrid.Filtering.Number
 {
     public class byteFilter : NumberFilter
     {

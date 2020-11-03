@@ -1,4 +1,4 @@
-﻿namespace ITN.TS.DataGrid.Processors
+﻿namespace Digify.DataGrid.Processors
 {
     public enum GridProcessorType
     {

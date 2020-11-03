@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using ITN.TS.DataGrid.Filtering;
+using Digify.DataGrid.Filtering;
 
-namespace ITN.TS.DataGrid.ModelBindings
+namespace Digify.DataGrid.ModelBindings
 {
     public class GridModelBinder : IModelBinder
     {

@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Reflection;
 
-namespace ITN.TS.DataGrid
+namespace Digify.DataGrid
 {
     /// <summary>
     /// Grid Model

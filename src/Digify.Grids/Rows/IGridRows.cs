@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using ITN.TS.DataGrid.Grids;
+using Digify.DataGrid.Grids;
 
-namespace ITN.TS.DataGrid.Rows
+namespace Digify.DataGrid.Rows
 {
     public interface IGridRows<out T> : IEnumerable<IGridRow<T>>
     {

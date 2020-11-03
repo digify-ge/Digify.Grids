@@ -1,4 +1,4 @@
-﻿namespace ITN.TS.DataGrid.Sorting
+﻿namespace Digify.DataGrid.Sorting
 {
     public enum GridSortOrder
     {

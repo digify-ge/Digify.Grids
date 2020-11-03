@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ITN.TS.DataGrid.Filtering
+namespace Digify.DataGrid.Filtering
 {
     public class DataTableRequest
     {

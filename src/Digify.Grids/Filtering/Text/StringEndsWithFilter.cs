@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace ITN.TS.DataGrid.Filtering.Text
+namespace Digify.DataGrid.Filtering.Text
 {
     public class stringEndsWithFilter : BaseGridFilter
     {

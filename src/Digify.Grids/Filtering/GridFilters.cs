@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ITN.TS.DataGrid.Columns;
-using ITN.TS.DataGrid.Filtering.Boolean;
-using ITN.TS.DataGrid.Filtering.Date;
-using ITN.TS.DataGrid.Filtering.Number;
-using ITN.TS.DataGrid.Filtering.Text;
+using Digify.DataGrid.Columns;
+using Digify.DataGrid.Filtering.Boolean;
+using Digify.DataGrid.Filtering.Date;
+using Digify.DataGrid.Filtering.Number;
+using Digify.DataGrid.Filtering.Text;
 using Microsoft.Extensions.Primitives;
 
-namespace ITN.TS.DataGrid.Filtering
+namespace Digify.DataGrid.Filtering
 {
     public class GridFilters : IGridFilters
     {

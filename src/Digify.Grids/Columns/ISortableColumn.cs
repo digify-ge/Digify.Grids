@@ -1,7 +1,7 @@
-﻿using ITN.TS.DataGrid.Processors;
-using ITN.TS.DataGrid.Sorting;
+﻿using Digify.DataGrid.Processors;
+using Digify.DataGrid.Sorting;
 
-namespace ITN.TS.DataGrid.Columns
+namespace Digify.DataGrid.Columns
 {
     public interface ISortableColumn
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace ITN.TS.DataGrid.Filtering.Date
+namespace Digify.DataGrid.Filtering.Date
 {
     public class DateTimeFilter : BaseGridFilter
     {

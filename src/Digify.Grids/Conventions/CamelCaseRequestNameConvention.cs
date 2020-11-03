@@ -1,4 +1,4 @@
-﻿namespace ITN.TS.DataGrid
+﻿namespace Digify.DataGrid
 {
     public class CamelCaseRequestNameConvention
     {

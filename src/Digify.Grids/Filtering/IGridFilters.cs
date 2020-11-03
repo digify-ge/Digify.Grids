@@ -1,7 +1,7 @@
 ﻿using System;
-using ITN.TS.DataGrid.Columns;
+using Digify.DataGrid.Columns;
 
-namespace ITN.TS.DataGrid.Filtering
+namespace Digify.DataGrid.Filtering
 {
     public interface IGridFilters
     {

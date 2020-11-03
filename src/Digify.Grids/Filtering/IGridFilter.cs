@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace ITN.TS.DataGrid.Filtering
+namespace Digify.DataGrid.Filtering
 {
     public interface IGridFilter
     {

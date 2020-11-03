@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using ITN.TS.DataGrid.Grids;
+using Digify.DataGrid.Grids;
 
-namespace ITN.TS.DataGrid.Columns
+namespace Digify.DataGrid.Columns
 {
     public interface IGridColumns<out T> : IEnumerable<T> where T : IGridColumn
     {

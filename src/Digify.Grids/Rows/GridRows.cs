@@ -2,10 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using ITN.TS.DataGrid.Grids;
-using ITN.TS.DataGrid.Processors;
+using Digify.DataGrid.Grids;
+using Digify.DataGrid.Processors;
 
-namespace ITN.TS.DataGrid.Rows
+namespace Digify.DataGrid.Rows
 {
     public class GridRows<T> : IGridRowsOf<T>
     {

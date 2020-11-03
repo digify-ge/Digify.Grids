@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ITN.TS.DataGrid.Filtering;
+using Digify.DataGrid.Filtering;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ITN.TS.DataGrid.Extension
+namespace Digify.DataGrid.Extension
 {
     public static class ServiceCollectionExtension
     {

@@ -4,18 +4,18 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Text.Encodings.Web;
-using ITN.TS.DataGrid.Filtering;
-using ITN.TS.DataGrid.Grids;
-using ITN.TS.DataGrid.Processors;
-using ITN.TS.DataGrid.Rows;
-using ITN.TS.DataGrid.Sorting;
+using Digify.DataGrid.Filtering;
+using Digify.DataGrid.Grids;
+using Digify.DataGrid.Processors;
+using Digify.DataGrid.Rows;
+using Digify.DataGrid.Sorting;
 using Microsoft.AspNetCore.Html;
 using Microsoft.Extensions.Primitives;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc.ViewFeatures.Internal;
 using Microsoft.AspNetCore.Routing;
 
-namespace ITN.TS.DataGrid.Columns
+namespace Digify.DataGrid.Columns
 {
     public class GridColumn<T, TValue> : BaseGridColumn<T, TValue> where T : class
     {

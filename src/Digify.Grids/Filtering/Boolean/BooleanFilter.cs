@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace ITN.TS.DataGrid.Filtering.Boolean
+namespace Digify.DataGrid.Filtering.Boolean
 {
     public class boolFilter : BaseGridFilter
     {

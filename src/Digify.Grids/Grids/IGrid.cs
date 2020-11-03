@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using ITN.TS.DataGrid.Columns;
-using ITN.TS.DataGrid.Paging;
-using ITN.TS.DataGrid.Processors;
-using ITN.TS.DataGrid.Rows;
+using Digify.DataGrid.Columns;
+using Digify.DataGrid.Paging;
+using Digify.DataGrid.Processors;
+using Digify.DataGrid.Rows;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace ITN.TS.DataGrid.Grids
+namespace Digify.DataGrid.Grids
 {
     public interface IGrid
     {

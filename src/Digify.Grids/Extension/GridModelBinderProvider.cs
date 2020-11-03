@@ -1,9 +1,9 @@
 ﻿using System;
-using ITN.TS.DataGrid.Filtering;
-using ITN.TS.DataGrid.ModelBindings;
+using Digify.DataGrid.Filtering;
+using Digify.DataGrid.ModelBindings;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace ITN.TS.DataGrid.Extension
+namespace Digify.DataGrid.Extension
 {
     public class GridModelBinderProvider : IModelBinderProvider
     {

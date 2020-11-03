@@ -1,7 +1,7 @@
-﻿using ITN.TS.DataGrid.Filtering;
-using ITN.TS.DataGrid.Processors;
+﻿using Digify.DataGrid.Filtering;
+using Digify.DataGrid.Processors;
 
-namespace ITN.TS.DataGrid.Columns
+namespace Digify.DataGrid.Columns
 {
     public interface IFilterableColumn
     {

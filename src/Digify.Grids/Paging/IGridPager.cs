@@ -1,8 +1,8 @@
 ﻿using System;
-using ITN.TS.DataGrid.Grids;
-using ITN.TS.DataGrid.Processors;
+using Digify.DataGrid.Grids;
+using Digify.DataGrid.Processors;
 
-namespace ITN.TS.DataGrid.Paging
+namespace Digify.DataGrid.Paging
 {
     public interface IGridPager
     {

@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using ITN.TS.DataGrid.Filtering;
-using ITN.TS.DataGrid.Grids;
-using ITN.TS.DataGrid.Processors;
-using ITN.TS.DataGrid.Rows;
-using ITN.TS.DataGrid.Sorting;
+using Digify.DataGrid.Filtering;
+using Digify.DataGrid.Grids;
+using Digify.DataGrid.Processors;
+using Digify.DataGrid.Rows;
+using Digify.DataGrid.Sorting;
 using Microsoft.AspNetCore.Html;
 
-namespace ITN.TS.DataGrid.Columns
+namespace Digify.DataGrid.Columns
 {
     public abstract class BaseGridColumn<T, TValue> : IGridColumn<T> where T : class
     {

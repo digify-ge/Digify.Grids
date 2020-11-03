@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ITN.TS.DataGrid.Grids;
+using Digify.DataGrid.Grids;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace ITN.TS.DataGrid.Extension
+namespace Digify.DataGrid.Extension
 {
     public static  class HtmlExtension
     {

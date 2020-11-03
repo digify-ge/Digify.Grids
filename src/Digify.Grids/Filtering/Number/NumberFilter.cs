@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace ITN.TS.DataGrid.Filtering.Number
+namespace Digify.DataGrid.Filtering.Number
 {
     public abstract class NumberFilter : BaseGridFilter
     {

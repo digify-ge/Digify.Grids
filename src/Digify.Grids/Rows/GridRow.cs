@@ -1,4 +1,4 @@
-﻿namespace ITN.TS.DataGrid.Rows
+﻿namespace Digify.DataGrid.Rows
 {
     public class GridRow<T> : IGridRow<T>
     {

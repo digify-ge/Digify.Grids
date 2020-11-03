@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using ITN.TS.DataGrid.Grids;
+using Digify.DataGrid.Grids;
 
-namespace ITN.TS.DataGrid.Columns
+namespace Digify.DataGrid.Columns
 {
     public class GridColumns<T> : List<IGridColumn<T>>, IGridColumnsOf<T> where T : class
     {

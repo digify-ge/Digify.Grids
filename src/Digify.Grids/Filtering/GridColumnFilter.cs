@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using ITN.TS.DataGrid.Columns;
-using ITN.TS.DataGrid.Processors;
+using Digify.DataGrid.Columns;
+using Digify.DataGrid.Processors;
 
-namespace ITN.TS.DataGrid.Filtering
+namespace Digify.DataGrid.Filtering
 {
     public class GridColumnFilter<T> : IGridColumnFilter<T>
     {

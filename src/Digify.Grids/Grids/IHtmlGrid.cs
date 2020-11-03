@@ -1,10 +1,10 @@
 ﻿using System;
-using ITN.TS.DataGrid.Columns;
-using ITN.TS.DataGrid.Paging;
-using ITN.TS.DataGrid.Processors;
+using Digify.DataGrid.Columns;
+using Digify.DataGrid.Paging;
+using Digify.DataGrid.Processors;
 using Microsoft.AspNetCore.Html;
 
-namespace ITN.TS.DataGrid.Grids
+namespace Digify.DataGrid.Grids
 {
     public interface IHtmlGrid<T> : IHtmlContent
     {

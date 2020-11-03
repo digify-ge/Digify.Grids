@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using ITN.TS.DataGrid.Grids;
-using ITN.TS.DataGrid.Processors;
+using Digify.DataGrid.Grids;
+using Digify.DataGrid.Processors;
 
-namespace ITN.TS.DataGrid.Paging
+namespace Digify.DataGrid.Paging
 {
     public class GridPager<T> : IGridPager<T>
     {

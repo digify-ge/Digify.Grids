@@ -1,4 +1,4 @@
-﻿namespace ITN.TS.DataGrid.Filtering
+﻿namespace Digify.DataGrid.Filtering
 {
     public class Column
     {

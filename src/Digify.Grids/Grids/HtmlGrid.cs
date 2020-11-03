@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq.Expressions;
 using System.Text.Encodings.Web;
-using ITN.TS.DataGrid.Columns;
-using ITN.TS.DataGrid.Paging;
-using ITN.TS.DataGrid.Processors;
+using Digify.DataGrid.Columns;
+using Digify.DataGrid.Paging;
+using Digify.DataGrid.Processors;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Reflection;
 using System.Linq;
 
-namespace ITN.TS.DataGrid.Grids
+namespace Digify.DataGrid.Grids
 {
     public class HtmlGrid<T> : IHtmlGrid<T> 
     {

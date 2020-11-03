@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace ITN.TS.DataGrid.Processors
+namespace Digify.DataGrid.Processors
 {
     public interface IGridProcessor<T>
     {
