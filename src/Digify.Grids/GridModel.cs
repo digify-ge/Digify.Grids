@@ -7,6 +7,10 @@ using System.Reflection;
 
 namespace ITN.TS.DataGrid
 {
+    /// <summary>
+    /// Grid Model
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class GridModel<T> where T : class
     {
         public GridModel(T parent, int? parentId, int id)
