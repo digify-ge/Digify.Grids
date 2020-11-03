@@ -16,9 +16,14 @@ namespace Digify.DataGrid.Extension
         }
         public static IServiceCollection AddItnGrid(this IServiceCollection services, Action<IGridFilters> configure)
         {
+            services.Configure<MvcOptions>(options =>
+           {
+               options.ModelBinderProviders.Insert(0, new GridModelBinderProvider());
+           });
+          
             IGridFilters filters = new GridFilters();
             configure(filters);
-         
+
             return services.AddSingleton(filters);
         }
     }
